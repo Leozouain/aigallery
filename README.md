@@ -1,0 +1,2 @@
+# aigallery
+project for studies
