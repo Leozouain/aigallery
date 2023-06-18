@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; ;
+}
+
+.btn-nav{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+}
+
+.sub-content{
+    font-size: 1.1rem;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 400;
+}
+.cta{
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.5rem ;
+    border-radius: 30px;
+    transition: 0.6s ease-in-out;
+}
+.cta:hover{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+
+.cta-box{
+    height: 100%;
+    width: 100%;
+}
+
+
+.hero{
+    height: 90vh;
+    background-image: url('https://cdn.leonardo.ai/users/d926b8cb-c873-42be-8914-9530c5b7ddd4/generations/6f29a411-47dd-4487-a66e-d5e677b3316f/RPG_40_A_closeup_of_a_Vietnamese_old_mans_face_illuminated_by_0.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* HERE FINISHES THE HERO SECTION */
+
+/* STARTS BODY  */
+
+.content-title{
+    
+    
+    font-weight: bolder;
+}
+
+.card-btn{
+    text-decoration: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.6s ease-in-out;
+}
+
+.card-btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    scale: 1.3;
+    box-shadow: 12px 12px black;
+}
+
+
+
+.footer{
+    height: 15vh;
+}
+
+/* MEDIAS */
+
+@media (min-width: 768px) {
+    .title{
+        font-size: 3rem;
+    }
+    .sub-content{
+        font-size: 1.3rem;
+
+    }
+    .cta-box{
+        height: 100%;
+        width: 45%;
+    }
+    .cta{
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .title{
+        font-size: 5rem;
+    }
+    .content-title{
+        font-size: 4rem;
+    }
+
+ }
